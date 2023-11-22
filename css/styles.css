@@ -886,6 +886,7 @@ body{
     justify-content: center;
     margin-top: 96px;
     gap: 24px;
+    flex-wrap: wrap;
  }
 
  .website-btn{
