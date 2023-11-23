@@ -1056,7 +1056,7 @@ body{
 }
  
 
-@media (max-width: 768px)and (min-width: 500px) {
+@media (min-width: 768px) {
       .container{
         width: 768px;
        } 
@@ -1112,7 +1112,7 @@ body{
 
 
 
-@media (min-width: 1200px) {
+@media  (min-width: 1200px) {
     .about-link {
         display: flex;
         column-gap: 30px;
@@ -1122,6 +1122,13 @@ body{
         width: 1200px;
     }
 
+    .sample-photos{
+        display: block;
+    }
+    
+    .discription-icons{
+       display: block;
+    }
    
     .desktop-container-list{
        display: flex;
