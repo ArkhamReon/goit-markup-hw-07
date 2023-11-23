@@ -1056,10 +1056,10 @@ body{
 }
  
 
-@media  (min-width: 768px){
-    .container{
+@media (max-width: 768px)and (min-width: 500px) {
+      .container{
         width: 768px;
-       }
+       } 
       
       .cards{
         flex-basis: calc(100% / 2 -30px);
@@ -1067,6 +1067,14 @@ body{
     
         .mobile-view,
         .js-close-menu {
+            display: none;
+        }
+
+        .sample-photos{
+            display: none;
+        }
+
+        .discription-icons{
             display: none;
         }
         
